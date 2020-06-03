@@ -8,6 +8,7 @@ function leashDog(dogName, dogBreed){
 }
 function walkToPark(dogName, dogBreed){
   console.log(`Walk to the with ${dogName} the ${dogBreed}`);
+<<<<<<< HEAD
   return `Walk to the park with ${dogName} the ${dogBreed}`
 }
 function throwFrisbee(dogName, dogBreed){
@@ -27,4 +28,7 @@ const routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
 
 function exerciseDog(dogName, dogBreed){
   return routine.map(fn => fn(dogName, dogBreed))
+=======
+  return `Walk to the with ${dogName} the ${dogBreed}`
+>>>>>>> 5f5eaeb0a76f6b4ef10433acf0dc690848e96f24
 }
